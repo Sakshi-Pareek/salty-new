@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500&family=Sen:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.background_web {
+    background: var(--web-bg);
+}
+
+/* =========Our-Experience=========== */
+.stories_box {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 14px;
+}
+
+.first_box {
+    padding: 30px 30px 26px 26px;
+}
+
+.second_box {
+    padding: 30px 48px 26px 35px;
+}
+
+.third_box {
+    padding: 30px 20px 26px 28px;
+}
+
+.max_w_467 {
+    max-width: 467px;
+}
+
+/* =============popular-destination=========== */
+.pre_btn {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #2D3134;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.pre_btn:hover {
+    border: none;
+    background-color: #2D3134;
+}
+
+.pre_btn:hover svg path {
+    stroke: #FAF8ED;
+}
+
+.next_btn:hover svg path {
+    stroke: #FAF8ED;
+}
+
+.next_btn {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #2D3134;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.next_btn:hover {
+    border: none;
+    background-color: #2D3134;
+}
+
+.Destination_slider {
+    background: #FAF8ED;
+    border: 2px solid #FFFFFF;
+    border-radius: 16px;
+    padding: 12px 12px 36px 12px;
+}
+
+.b_radius_16 {
+    border-radius: 16px;
+}
+
+.book_btn {
+    background-color: #FAF8ED;
+    border: 1px solid #2D3134;
+    padding: 12px 16px 11px 16px;
+    border-radius: 46px;
+}
+@media (min-width:1200px) and (max-width:1440px) {
+   .my_container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+   }
